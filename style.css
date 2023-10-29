@@ -437,14 +437,6 @@ header {
   align-items: start;
 }
 
-/* .accordion__menu .accordion__item .accordion__title::before {
-  transform: rotate(0deg);
-}
-
-.accordion__menu .accordion__item .accordion__title::after {
-  transform: rotate(90deg);
-} */
-
 .accordion__menu .accordion__item p {
   position: relative;
   /* color: rgba(0, 0, 0, 0.6); */
@@ -521,15 +513,6 @@ header {
 }
 
 /* //////// OPEN */
-
-/* .accordion__menu .accordion__item.open .accordion__title::before {
-  transform: rotate(-45deg);
-}
-
-.accordion__menu .accordion__item.open .accordion__title::after {
-  transform: rotate(45deg);
-} */
-
 .accordion__menu .accordion__item.open p {
   display: block;
 }
