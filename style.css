@@ -49,6 +49,10 @@ header {
   padding-top: 4.8rem;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 /*    NAVBAR  */
 .navbar {
   max-width: 130rem;
@@ -59,6 +63,7 @@ header {
 }
 
 .navbar .nav__left i {
+  cursor: pointer;
   color: #fff;
   background-color: blue;
   padding: 1rem;
@@ -71,12 +76,17 @@ header {
   column-gap: 1rem;
 }
 
-.navbar .nav__left .logo_text {
+.navbar .nav__left .logo_text a {
   color: #242a45;
   font-size: 1.3rem;
   font-weight: 500;
   line-height: 17px;
   letter-spacing: 1.5px;
+  text-decoration: none;
+}
+
+.footer__bottom .logo__footer .logo_text a {
+  color: #fff;
 }
 
 .navbar .nav__links {
@@ -236,9 +246,7 @@ header {
   font-weight: 400;
   line-height: 17px; /* 106.25% */
   letter-spacing: 0.533px;
-  /* padding: 0 10px 30px; */
-
-  /* border-bottom: 5px solid #FA5959; */
+  cursor: pointer;
 
   opacity: 0.75;
 }
@@ -249,9 +257,6 @@ header {
 
 .slides {
   margin-top: 72px;
-  /* display: flex;
-  flex-direction: column;
-  row-gap: 200px; */
 }
 
 .slide {
@@ -267,9 +272,6 @@ header {
 .slide .tablet-img img {
   width: 536px;
   height: 346px;
-}
-
-.slide .tablet-img {
 }
 
 .slide .background-img img {
@@ -301,14 +303,19 @@ header {
   font-weight: 500;
   line-height: 28px; /* 200% */
   letter-spacing: 0.25px;
+  border: groove;
 
   border-radius: 5px;
   background: #5267df;
 
   box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
   padding: 10px 24px;
+}
 
-  border: none;
+.slide__right--btn:hover {
+  border: 3px solid #5267df;
+  background-color: #fff;
+  color: #5267df;
 }
 
 /*  PRICING SECTION */
@@ -627,5 +634,6 @@ form button:hover {
 }
 
 .footer__bottom--right i:hover {
+  cursor: pointer;
   color: #fa5959;
 }
