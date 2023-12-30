@@ -303,7 +303,7 @@ header {
   font-weight: 500;
   line-height: 28px; /* 200% */
   letter-spacing: 0.25px;
-  border: groove;
+  border: 2px solid transparent;
 
   border-radius: 5px;
   background: #5267df;
@@ -313,7 +313,7 @@ header {
 }
 
 .slide__right--btn:hover {
-  border: 3px solid #5267df;
+  border: 2px solid #5267df;
   background-color: #fff;
   color: #5267df;
 }
@@ -444,7 +444,6 @@ header {
 
 .accordion__menu .accordion__item p {
   position: relative;
-  /* color: rgba(0, 0, 0, 0.6); */
   font-weight: 400;
   padding-bottom: 1.75rem;
   display: none;
@@ -459,6 +458,11 @@ header {
 
 .accordion__menu .accordion__item {
   text-align: start;
+}
+
+.accordion__menu .accordion__item .titleAndArrow {
+  cursor: pointer;
+  
 }
 
 .accordion__menu .accordion__item:nth-child(1) .titleAndArrow {
